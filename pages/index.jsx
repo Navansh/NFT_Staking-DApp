@@ -1,7 +1,7 @@
 import Head from "next/head";
 import TokenBal from "@/components/Modal/TokenBal";
-import StakedNft from "@/components/Modal/StakedNFT";
-import UnstakedNft from "@/components/Modal/UnStakedNFT";
+import StakedNFT from "@/components/Modal/StakedNFT";
+import UnStakedNFT from "@/components/Modal/UnStakedNFT";
 import { useAccount, useConnect, useDisconnect } from 'wagmi'
 import Mint from "./mint";
 
