@@ -93,7 +93,7 @@ const NFTCard = ({ url, stake, tokenId }) => {
               src={
                 nft.image
                   ? nft.image
-                  : "https://www.universalmusic.com/wp-content/uploads/2022/03/Manager-Noet-All.png"
+                  : "mutant.png"
               }
               alt={nft.name}
               width={200}
@@ -116,7 +116,7 @@ const NFTCard = ({ url, stake, tokenId }) => {
               src={
                 nft.image
                   ? nft.image
-                  : "https://www.universalmusic.com/wp-content/uploads/2022/03/Manager-Noet-All.png"
+                  : "mutant.png"
               }
               alt={nft.name}
               width={200}
