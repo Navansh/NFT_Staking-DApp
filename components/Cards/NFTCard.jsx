@@ -93,7 +93,7 @@ const NFTCard = ({ url, stake, tokenId }) => {
               src={
                 nft.image
                   ? nft.image
-                  : "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.worldcoinindex.com%2Fnft%2Fmutant-ape-yacht-club%2F21125&psig=AOvVaw2Thorp1xfUBfMlT4k5IUtd&ust=1679938322078000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIDWvomQ-v0CFQAAAAAdAAAAABAE"
+                  : "https://ipfs.moralis.io:2053/ipfs/QmbReMfQT748YZKR9ichobtvLFKKNnsUeLuwGFhr6vfYDj"
               }
               alt={nft.name}
               width={200}
