@@ -1,7 +1,7 @@
 import Head from "next/head";
 import TokenBal from "@/components/Modal/TokenBal";
 import StakedNft from "@/components/Modal/StakedNFT";
-import UnstakedNft from "@/components/Modal/UnstakedNFT";
+import UnstakedNft from "@/components/Modal/UnStakedNFT";
 import { useAccount, useConnect, useDisconnect } from 'wagmi'
 import Mint from "./mint";
 
@@ -21,7 +21,7 @@ export default function Home() {
           <div>
             <TokenBal />
             <StakedNFT />
-            <UnstakedNFT />
+            <UnStakedNFT />
           </div>
         ) : (
           <div className="flex justify-center">
