@@ -50,12 +50,12 @@ const getNFTs = async () => {
     <div className="flex flex-col mx-auto text-center">
 
       <h2 className="text-2xl">Your NFTs</h2>
-      <div className="flex flex-wrap mx-auto my-7"></div>
+      <div className="flex flex-wrap mx-auto my-7">
       {nfts.map((nft, id) => (
           <NFTCard key={id} url={nft.url} stake={true} tokenId={nft.tokenId} />
         ))}
     </div>
-    
+    </div>
   );
 };
 
