@@ -95,6 +95,7 @@ const NFTCard = ({ url, stake, tokenId }) => {
                   ? nft.image
                   : "https://www.chanchao.com.tw/VietnamPrintPack/images/default.jpg"
               }
+              unoptimized={true}
               alt={nft.name}
               width={200}
               height={400}
@@ -119,6 +120,7 @@ const NFTCard = ({ url, stake, tokenId }) => {
                   : "https://www.chanchao.com.tw/VietnamPrintPack/images/default.jpg"
               }
               alt={nft.name}
+              unoptimized={true}
               width={200}
               height={400}
             />
